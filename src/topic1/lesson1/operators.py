@@ -50,6 +50,7 @@ if __name__ == '__main__':
     print(True and True and True and False)
     print(False or False or True or False)
     print(False or False or False or True)
+
     print(not False or True)
 
 
