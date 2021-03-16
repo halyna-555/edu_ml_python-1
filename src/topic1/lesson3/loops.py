@@ -51,8 +51,12 @@ def loops_task1():
     """
     Use loop for creation list with 500 integer elements
     """
-    # TODO write the code
-    result = None
+
+    my_list = []
+    for i in range(500):
+        my_list.append(1)
+
+    result = my_list
     return result
 
 
@@ -61,6 +65,10 @@ def loops_task2():
     """
     Use loop for creation new list with even elements [2,4,6,8,10]
     """
-    # TODO write the code
-    result = None
+    evenlist = []
+    for i in task2:
+        if i % 2 == 0:
+            evenlist.append(i)
+
+    result = evenlist
     return result
