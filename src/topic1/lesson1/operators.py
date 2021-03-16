@@ -55,15 +55,15 @@ if __name__ == '__main__':
 
 
 def operators_task1():
-    a = 0
+    a = 10
     return a
 
 
 def operators_task2():
-    return True and True and False
+    return True and True and True
 
 
 def operators_task3():
     a = 10
-    b = 5
+    b = 15
     return a < b
